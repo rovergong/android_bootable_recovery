@@ -19,6 +19,7 @@
 #define LV_DRAW_BUF_STRIDE_ALIGN 1
 #define LV_DRAW_BUF_ALIGN 4
 #define LV_USE_DRAW_SW 1
+#define LV_USE_THORVG 1
 #if defined(__aarch64__) || defined(__arm__)
 #define LV_USE_DRAW_SW_ASM LV_DRAW_SW_ASM_NEON
 #else
@@ -57,6 +58,7 @@
 #define LV_USE_MATRIX 1
 #define LV_USE_VECTOR_GRAPHIC 1
 #define LV_USE_THORVG_INTERNAL 1
+#define LV_DRAW_HAS_VECTOR_SUPPORT 1
 #define LV_USE_SVG 1
 #define LV_USE_SVG_ANIMATION 0
 #define LV_USE_SVG_DEBUG 0
