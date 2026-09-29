@@ -100,7 +100,7 @@
 #define LV_USE_LED 0
 #define LV_USE_LINE 1
 #define LV_USE_LIST 1
-#define LV_USE_MENU 0
+#define LV_USE_MENU 1
 #define LV_USE_MSGBOX 0
 #define LV_USE_ROLLER 0
 #define LV_USE_SCALE 1
